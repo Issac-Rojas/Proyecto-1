@@ -1,0 +1,96 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #e6e6e6;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.jumbotron {
+    background: url('jabones-bg.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.jumbotron h2 {
+    font-size: 2.5em;
+}
+
+.jumbotron form input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.jumbotron form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+.productos {
+    padding: 20px;
+    text-align: center;
+}
+
+.productos h2 {
+    margin-bottom: 20px;
+}
+
+.productos-lista {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto {
+    border: 1px solid #000000;
+    padding: 10px;
+    width: 200px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.redes-sociales a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
